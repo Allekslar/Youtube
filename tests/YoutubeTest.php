@@ -1,6 +1,6 @@
 <?php
 
-namespace Alaouy\Youtube\Tests;
+namespace Allekslar\Youtube\Tests;
 
 use Alaouy\Youtube\Youtube;
 use PHPUnit\Framework\TestCase;
