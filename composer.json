@@ -17,21 +17,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Alaouy\\Youtube\\": "src"
+      "Allekslar\\Youtube\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Alaouy\\Youtube\\Tests\\": "tests"
+      "Allekslar\\Youtube\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Alaouy\\Youtube\\YoutubeServiceProvider"
+        "Allekslar\\Youtube\\YoutubeServiceProvider"
       ],
       "aliases": {
-        "Youtube": "Alaouy\\Youtube\\Facades\\Youtube"
+        "Youtube": "Allekslar\\Youtube\\Facades\\Youtube"
       }
     }
   }
