@@ -1,38 +1,50 @@
 {
-  "name": "allekslar/youtube",
-  "description": "Laravel PHP Facade/Wrapper for the Youtube Data API v3",
-  "keywords": ["youtube", "api", "video", "laravel", "alaouy"],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Mustapha Alaouy",
-      "email": "alaouym@gmail.com"
+    "name": "allekslar/youtube",
+    "description": "Laravel PHP Facade/Wrapper for the Youtube Data API v3",
+    "keywords": [
+        "youtube",
+        "api",
+        "video",
+        "laravel",
+        "alaouy"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mustapha Alaouy",
+            "email": "alaouym@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/Allekslar/Youtube"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Allekslar\\Youtube\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Allekslar\\Youtube\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Allekslar\\Youtube\\YoutubeServiceProvider"
+            ],
+            "aliases": {
+                "Youtube": "Allekslar\\Youtube\\Facades\\Youtube"
+            }
+        }
     }
-  ],
-  "require": {
-    "php": "^7.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^6.1"
-  },
-  "autoload": {
-    "psr-4": {
-      "Allekslar\\Youtube\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Allekslar\\Youtube\\Tests\\": "tests"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Allekslar\\Youtube\\YoutubeServiceProvider"
-      ],
-      "aliases": {
-        "Youtube": "Allekslar\\Youtube\\Facades\\Youtube"
-      }
-    }
-  }
 }
