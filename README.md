@@ -17,7 +17,7 @@ Looking for Youtube Package for either of these: PHP 5, Laravel 5.0, Laravel 4? 
 
 Run in console below command to download package to your project:
 ```
-composer require alaouy/youtube
+composer require allekslar/youtube
 ```
 
 ## Configuration
